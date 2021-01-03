@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="boardSizes">
+        <item name="fourBySix">4 rows by 6 columns</item>
+        <item name="fiveByTen">5 rows by 10 columns</item>
+        <item name="sixByFifteen">6 rows by 15 columns</item>
+    </string-array>
+
+    <string-array name="numPumpkinOptions">
+        <item name="six">6 pumpkins</item>
+        <item name="ten">10 pumpkins</item>
+        <item name="fifteen">15 pumpkins</item>
+        <item name="twenty">20 pumpkins</item>
+    </string-array>
+
+
+
+</resources>

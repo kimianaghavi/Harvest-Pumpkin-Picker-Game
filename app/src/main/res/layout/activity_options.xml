@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/autumn_pattern"
+    tools:context=".OptionsActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:fontFamily="cursive"
+        android:text="@string/config_title"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_reset_scores"
+        app:layout_constraintVertical_bias=".1" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_reset_scores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintVertical_bias=".2">
+
+        <TextView
+            android:id="@+id/tv_choose_board"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:fontFamily="cursive"
+            android:text="@string/chose_board_size"
+            android:textColor="@color/darkGreen"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+            android:id="@+id/sp_board_sizes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@id/sp_num_pumpkins"
+            app:layout_constraintTop_toTopOf="@id/tv_choose_board">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/tv_choose_num_pumpkins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:fontFamily="cursive"
+            android:text="@string/choose_number_of_pumpkins"
+            android:textColor="@color/darkGreen"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="@id/tv_choose_board"
+            app:layout_constraintTop_toBottomOf="@id/tv_choose_board" />
+
+        <Spinner
+            android:id="@+id/sp_num_pumpkins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@id/tv_choose_num_pumpkins"
+            app:layout_constraintTop_toTopOf="@id/tv_choose_num_pumpkins"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1">
+
+        </Spinner>
+
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_reset_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18sp"
+        android:background="@drawable/button_background"
+        android:fontFamily="cursive"
+        android:text="@string/reset_high_scores"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

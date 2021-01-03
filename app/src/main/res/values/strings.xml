@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Pumpkin Picker</string>
+
+    <!--Welcome Activity Strings-->
+    <string name="move_to_main_screen"><![CDATA[Move to main screen >]]></string>
+    <string name="harvest_pumpkin_picker">Harvest Pumpkin Picker</string>
+    <string name="by_danica_walton_kimia_naghavi"><![CDATA[by Danica Walton & Kimia Naghavi]]></string>
+
+    <!--Main Activity Strings-->
+    <string name="main_menu">Main Menu</string>
+    <string name="play_game">Play Game!</string>
+    <string name="options">Options</string>
+
+    <!--Shared Preferences Keys-->
+    <string name="editable_key">KEY_ROW_%d_PUMP_%d</string>
+    <string name="KEY_NUM_PLAYS">numPlays</string>
+
+    <string name="KEY_MY_PREFS">myPreferences</string>
+    <string name="KEY_ROW_SIZE">rowSize</string>
+    <string name="KEY_COL_SIZE">colSize</string>
+    <string name="KEY_NUM_PUMPKINS">numPumpkins</string>
+
+    <!--Game Activity Strings-->
+    <string name="game_won">Game Won!</string>
+    <string name="you_won_msg">Congratulations you won the game!!</string>
+    <string name="ok">Ok!</string>
+    <string name="lbl_high_score">High Score:</string>
+    <string name="no_games">No games played yet</string>
+    <string name="lbl_num_games">Number of Games Played:</string>
+    <string name="lbl_scans"># Scans used:</string>
+    <string name="editable_num_pumpkins_found">Found %d of %d pumpkins</string>
+
+    <!--Help Activity Strings-->
+    <string name="help_title">Help</string>
+    <string name="developers">- Developed by Danica Walton and Kimia Naghavi\n</string>
+    <string name="course_link">- https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home\n\n</string>
+    <string name="app_description">Description:\n  Welcome to Pumpkin Picker! This is a game where you pick the pumpkins!
+        The game begins after clicking \'Play Game!\'
+        on Main Menu. Click on a square to reveal a pumpkin. If a pumpkin exists on that square, you will
+        reveal the pumpkin. Otherwise, you will scan the square to reveal how many pumpkins are in the rows and columns
+        adjacent to the square. Use these numbers to guess where the next pumpkins will be. You can also click an already
+        revealed pumpkin to scan the adjacent rows and columns. Each scan contributes to your game score. You win the game
+        when you reveal all the pumpkins! A high score is calculated based on the smallest number of scans it took you to
+        find all the pumpkins on the specific board configuration.
+        \n- Happy pumpkin picking! -\t\t (Scroll for more info...)\n\n"</string>
+    <string name="lbl_image_citations">Images Citation:\n</string>
+    <string name="tree_with_leaves_link">- tree_with_leaves:\n- https://www.clipartmax.com/download/m2K9A0d3N4d3b1Z5_autumn-clipart-autumn-maple-tree-fall-tree-clip-art\n\n</string>
+    <string name="two_leaves_link">- two leaves: \n- https://www.clipartmax.com/download/m2i8G6N4K9Z5N4b1_autumn-flat-leaf-leaves-fall-icon-fall-leaves-icon\n\n</string>
+    <string name="tubes_halloween_link">- tubes halloween:\n- http://ekladata.com/EaxKzx8mnNw4FbTbBkb443KqbbM.png\n\n</string>
+    <string name="pumpkin_link">- pumpkin:\n- https://flyclipart.com/fall-pumpkin-clipart-free-clip-art-images-pumpkin-vine-clipart-201737 \n\n</string>
+    <string name="fall_wallpaper_link">- fall walpaper:\n- https://jesssmartsmiley.wordpress.com/2012/11/09/free-fall-wallpaper-download \n\n</string>
+    <string name="autumn_pattern_link">- autumn pattern:\n- https://www.vecteezy.com/vector-art/121627-free-autumn-pattern-vectorn\n\n</string>
+
+    <string name="back_ground_leaves_link">- background leaves:\n- https://www.pinterest.ca/pin/443604632050506604/?nic_v2=1a45MhklK\n\n</string>
+    <string name="leaves_on_the_side_link">- leaves on the side:\n- https://www.pinterest.ca/pin/430234570652556486/?nic_v2=1a45MhklK\n\n</string>
+    <string name="game_background_link">- game background:\n- https://www.pinterest.ca/pin/327214729155569045/?nic_v2=1a45MhklK\n\n</string>
+
+    <!--Options Activity Strings-->
+    <string name="config_title">Configure Board to Custom Sizes</string>
+    <string name="chose_board_size">Choose board size:</string>
+    <string name="choose_number_of_pumpkins">Choose number of pumpkins to find:</string>
+    <string name="reset_high_scores">Reset High Scores</string>
+
+
+
+
+</resources>
